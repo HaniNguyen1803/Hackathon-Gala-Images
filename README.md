@@ -16,12 +16,11 @@ The dataset consists of:
 2. Data Exploration
 - Labels Distribution
 - Show random images of each category
-3. Build classification models
-- Model With PCA and No PCA
-    - Random Forest
-    - Logistic Regression
-    - XGBoost
+3. Build classification models with PCA and No PCA
+- Random Forest
+- Logistic Regression
+- XGBoost
 4. Build deep learning model using TensorFlow
-    - Build model from scratch
-    - Build model with pre-trained model VGG16
+- Build model from scratch
+- Build model with pre-trained model VGG16
 5. Predictions on test data of all models
