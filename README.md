@@ -14,17 +14,14 @@ The dataset consists of:
 - Import csv data with image names and their corresponding label
 - Function to load, resize images and append their corresponding labels 
 2. Data Exploration
-- General view of hotel booking demand
-    - Monthly and yearly booking
-    - General Lead Time
-    - Average stay time
-    - Country of bookings
-- What attributes affect cancellations?
-- Attributes of non-canceled guests
-    - Where do they come from?
-    - Are they repeated guests?
-- Resort Hotel vs. City Hotel
-    - Total bookings
-    - Monthly average price per non-canceled guests
-    - Average price per non-canceled guest by hotel and room type
-    - How long do people stay at hotels?
+- Labels Distribution
+- Show random images of each category
+3. Build classification models
+- Model With PCA and No PCA
+    - Random Forest
+    - Logistic Regression
+    - XGBoost
+4. Build deep learning model using TensorFlow
+    - Build model from scratch
+    - Build model with pre-trained model VGG16
+5. Predictions on test data of all models
